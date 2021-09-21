@@ -1,0 +1,41 @@
+#nav {
+    background: rgba(53, 58, 64, 255);
+    margin-top: -3%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#logo-titulo {
+    color: #fefdf3;
+    position: relative;
+    right: 1%;
+}
+
+#margin-left {
+    margin-left: 5%;
+}
+
+#mov-menu {
+    position: relative;
+    left: 24%;
+}
+
+.color-letras-menu {
+    color: #9a9ca1;
+}
+
+#letras-menu-mouse {
+    color: #919a9c;
+}
+
+#letras-menu-mouse:hover {
+    color: #fefdf3
+}
+
+#letras-comprar {
+    color: #2b9642;
+}
+
+#letras-comprar:hover {
+    color: #fefdf3;
+}
