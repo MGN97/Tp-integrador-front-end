@@ -16,8 +16,7 @@
 }
 
 #mov-menu {
-    position: relative;
-    left: 24%;
+    margin-left: 45vh;
 }
 
 .color-letras-menu {
@@ -38,4 +37,24 @@
 
 #letras-comprar:hover {
     color: #fefdf3;
+}
+
+#card1 {
+    margin-top: -1%;
+}
+
+#degrade {
+    position: relative;
+}
+
+#arriba {
+    position: absolute;
+    bottom: 0%;
+    opacity: 0.5;
+}
+
+#text-card {
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 14%;
 }
