@@ -140,6 +140,14 @@
     margin-top: 3%;
 }
 
+.bt10 {
+    color: #fefdf3;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
 #relleno {
     background: #353a40;
 }
@@ -147,6 +155,13 @@
 #text-b {
     color: #fefdf3;
 }
+
+#text-abajo-01 {
+    margin-top: 2%;
+}
+
+
+/*AGREGAR ESTAS ID A LO QUE FALTA*/
 
 u {
     border-bottom: 2px dotted #000;
@@ -201,11 +216,10 @@ u {
     .buttons {
         display: unset;
     }
-    .bt1 {
-        color: #353a40;
-        background: white;
-        border: 1px solid #353a40;
-        margin-top: 6%;
+    .bt10 {
+        color: #fefdf3;
+        background: transparent;
+        border: 1px solid;
         border-radius: 4px;
         padding: 5px 15px;
     }
@@ -215,5 +229,12 @@ u {
     #text-01 {
         margin-bottom: -4.5%;
         font-size: 60%;
+    }
+    #abajo {
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #text-abajo-01 {
+        margin-top: 10%;
     }
 }
