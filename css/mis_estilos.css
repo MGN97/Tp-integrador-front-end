@@ -24,11 +24,11 @@
 }
 
 #letras-menu-mouse {
-    color: #919a9c;
+    color: #fefdf3
 }
 
 #letras-menu-mouse:hover {
-    color: #fefdf3
+    color: #919a9c;
 }
 
 #letras-comprar {
@@ -159,9 +159,6 @@
 #text-abajo-01 {
     margin-top: 2%;
 }
-
-
-/*AGREGAR ESTAS ID A LO QUE FALTA*/
 
 u {
     border-bottom: 2px dotted #000;
