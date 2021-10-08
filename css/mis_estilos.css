@@ -81,6 +81,15 @@
     margin-top: 14%;
 }
 
+#separado {
+    text-decoration: none;
+}
+
+#separado:hover {
+    background: #fefdf3;
+    color: #353a40;
+}
+
 .bt1 {
     color: #fefdf3;
     background: transparent;
@@ -102,6 +111,10 @@
     border: 1px;
     border-radius: 4px;
     padding: 5px 15px;
+}
+
+.velocidad {
+    --animate-duration: 2s;
 }
 
 #text-01 {
@@ -151,10 +164,6 @@
     color: #fefdf3;
 }
 
-.duracion-animacion {
-    --animate-duration: 4s;
-}
-
 .ss-bt {
     background: #dc3546;
     border: 1px;
@@ -179,12 +188,6 @@
     border: 1px solid;
     border-radius: 4px;
     padding: 5px 15px;
-    transition: 0.2s;
-}
-
-.bt10:hover {
-    background: #6b767c;
-    color: #fefdf3;
 }
 
 #relleno {
@@ -218,11 +221,10 @@ u {
     color: #fefdf3;
     border: 1px;
     margin-top: 2%;
-    transition: 0.2s;
 }
 
 #td4:hover {
-    background: #6b767c;
+    background: #353a40;
     color: #fefdf3;
 }
 
@@ -260,25 +262,52 @@ u {
         margin-top: -2%;
         border-radius: inherit;
     }
+    #t1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sub {
+        position: relative;
+        top: -42px;
+        font-size: 38px;
+    }
     #text-card {
-        text-align: right;
-        /*Anulo los saltos de linea creados en*/
-        white-space: nowrap;
-        font-size: 3vw;
+        display: contents;
+        position: relative;
+        margin-top: -85px;
+        text-align: left;
+        font-size: 19px;
         margin-right: -1%;
         margin-top: 1%;
+    }
+    #posicion {
+        position: relative;
+        top: -30px;
+    }
+    #botones-abajo {
+        position: relative;
+        top: -25px;
+    }
+    #separado {
+        margin-top: 15px;
+        text-align: center;
     }
     .buttons {
         display: unset;
     }
     .bt1 {
-        color: #353a40;
         text-align: center;
-        background: transparent;
-        border: 1px solid #353a40;
-        border-radius: 4px;
+        color: #353a40;
+        background: #fefdf3;
+        border: 1px solid #fefdf3;
+        border-radius: 9px;
         padding: 5px 15px;
         margin-top: 3%;
+    }
+    .bt2 {
+        border: 1px;
+        border-radius: 9px;
+        padding: 5px 5px;
     }
     .achico {
         margin-left: 40%;
@@ -292,7 +321,7 @@ u {
         padding: 5px 15px;
     }
     #text-abajo {
-        margin-top: 30%;
+        margin-top: 5%;
     }
     #text-01 {
         margin-bottom: -4.5%;
@@ -308,6 +337,10 @@ u {
     #r1 {
         display: flex;
         flex-flow: column;
+    }
+    #form {
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .footer {
         margin-top: 10%;
