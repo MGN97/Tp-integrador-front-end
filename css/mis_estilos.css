@@ -250,6 +250,52 @@ u {
 }
 
 
+/*Estilos del HTML tickets*/
+
+.centrar {
+    margin-top: 2%;
+    text-align: center;
+    gap: 1%;
+}
+
+#agrupar {
+    margin-right: 23%;
+    margin-left: 23%;
+}
+
+#borde1 {
+    border: 1px #047dfe solid;
+}
+
+#borde2 {
+    border: 1px #4bb7c8 solid;
+}
+
+#borde3 {
+    border: 1px #ffc10a solid;
+}
+
+.abajo1 {
+    margin-bottom: 2%;
+}
+
+.estirar {
+    padding-left: 25%;
+}
+
+#arriba1 {
+    margin-top: -1%;
+}
+
+#margen1 {
+    margin-left: 1%;
+}
+
+#margen2 {
+    margin-left: 1%;
+}
+
+
 /*Para dar mismo espacio entre palabras a "Prensa"*/
 
 .izq {
