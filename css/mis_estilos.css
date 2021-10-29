@@ -17,6 +17,12 @@
 
 /*Le doy estilos a la barra del nav*/
 
+.centrado_perfecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #nav {
     background: #353a40;
     margin-top: -3%;
@@ -256,9 +262,6 @@ u {
     margin-top: 2%;
     text-align: center;
     gap: 1%;
-}
-
-#agrupar {
     margin-right: 23%;
     margin-left: 23%;
 }
@@ -295,6 +298,10 @@ u {
     margin-left: 1%;
 }
 
+#separar {
+    gap: 1%;
+}
+
 
 /*Para dar mismo espacio entre palabras a "Prensa"*/
 
@@ -317,7 +324,7 @@ u {
         border-radius: inherit;
     }
     #t1 {
-        margin-left: 5%;
+        margin-lepxft: 5%;
         margin-right: 5%;
     }
     #sub {

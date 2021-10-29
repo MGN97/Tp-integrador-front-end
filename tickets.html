@@ -36,7 +36,7 @@
         </div>
     </nav>
 
-    <div id="agrupar" class="card-group centrar">
+    <div class="card-group centrar">
         <div id="borde1" class="card" style="width: 18rem;">
             <div class="card-body">
                 <h4 class="card-title">Estudiante</h4>
@@ -102,39 +102,31 @@
                 <div>
                     <p>Categoria</p>
                     <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                  <option selected>Seleccione Categoria</option>
-                  <option value="1">Estudiante</option>
-                  <option value="2">Trainee</option>
-                  <option value="3">Junior</option>
-                </select>
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                    </select>
                 </div>
             </div>
+
+
+            <div class="alert alert-primary" role="alert">
+                Total a Pagar: $
+            </div>
+
         </div>
-        <!--
-        <div class="card-group">
-            <div>
-                <p>Cantidad</p>
-                <span class="mb-2">
-                 <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad">
-                </span>
 
+        <!--Botones de BORRAR y de RESUMEN-->
+        <div id="separar" class="d-md-bloc centrado_perfecto">
+            <div class="d-grid col-md-6">
+                <button id="td4" type="button" class="btn btn-primary btn-lg">Borrar</button>
             </div>
-
-            <div>
-                <p>Categoria</p>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Tipo de descuento</option>
-                    <option value="1">Estudiante</option>
-                    <option value="2">Trainee</option>
-                    <option value="3">Junior</option>
-                  </select>
+            <div class="d-grid col-md-6">
+                <button id="td4" type="button" class="btn btn-primary btn-lg">Resumen</button>
             </div>
-        </div>-->
-
-        <div class="d-grid gap-2">
-            <a id="td4" class="btn btn-primary" type="button">Enviar</a>
         </div>
     </div>
+
 
     <div class="footer">
         <div class="container">
