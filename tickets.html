@@ -38,7 +38,7 @@
 
     <div class="card-group centrar">
         <div id="borde1" class="card" style="width: 18rem;">
-            <div class="card-body">
+            <div class="card-body estirar">
                 <h4 class="card-title">Estudiante</h4>
                 <p class="card-text">Tiene un descuento</p>
                 <h5 class="card-text">80%</h5>
@@ -47,7 +47,7 @@
         </div>
 
         <div id="borde2" class="card" style="width: 18rem;">
-            <div class="card-body">
+            <div class="card-body estirar">
                 <h4 class="card-title">Trainee</h4>
                 <p class="card-text">Tiene un descuento</p>
                 <h5 class="card-text">50%</h5>
@@ -56,8 +56,8 @@
         </div>
 
         <div id="borde3" class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h4 class="card-title">Estudiante</h4>
+            <div class="card-body estirar">
+                <h4 class="card-title">Junior</h4>
                 <p class="card-text">Tiene un descuento</p>
                 <h5 class="card-text">15%</h5>
                 <small class="text-muted">* presentar documentación</small>
@@ -77,55 +77,72 @@
         </figure>
     </div>
 
-    <div id="form" class="row abajo1">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-        </div>
-        <div class="col abajo1">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-        </div>
-
-        <div id="base" class="mb-3">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
-        </div>
 
 
-        <div id="arriba1" class="row g-2">
-            <div id="margen1" class="col-md">
-                <p>Cantidad</p>
-                <div>
-                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="cantidad">
-                </div>
+
+
+    <form id="carrito">
+        <div id="form" class="row abajo1">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col abajo1">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
             </div>
 
-            <div id="margen2" class="col-md">
-                <div>
+            <div class="centrado_perfecto">
+                <input type="email" id="input_correo" class="form-control" placeholder="Correo">
+            </div>
+
+            <!--
+            <div id="input_correo" class="mb-3">
+                <input type="email" class="form-control input_correo" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+            </div>-->
+
+            <div id="arriba1" class="row g-2">
+                <div id="cantidad" class="col-md">
+                    <p>Cantidad</p>
+                    <input v-model.type="number" class="form-control" placeholder="cantidad" @click="Borrar">
+                </div>
+
+                <div id="categoria" class="col-md">
                     <p>Categoria</p>
-                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                        <option value="1">Estudiante</option>
-                        <option value="2">Trainee</option>
-                        <option value="3">Junior</option>
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" v-model="selected">
+                        <option v-for="opcion in opciones" :value="opcion.value">{{opcion.text}}</option>
                     </select>
                 </div>
+
+
+                <div id="resumen">
+                    <div class="alert alert-primary" role="alert">
+                        <span>Total a Pagar: $ {{totalAPagar}}</span>
+                    </div>
+                </div>
+
+
+
+
+                <!--Botones de BORRAR y de RESUMEN-->
+                <div id="separar" class="d-md-bloc centrado_perfecto">
+                    <div class="d-grid col-md-6">
+                        <button id="td4" type="reset" @click="Borrar" class="btn btn-primary btn-lg">Borrar</button>
+                    </div>
+
+                    <div id="boton_resumen" class="d-grid col-md-6">
+                        <button id="td4" type="button" @click="Resumen" class="btn btn-primary btn-lg">Resumen</button>
+                    </div>
+                </div>
             </div>
-
-
-            <div class="alert alert-primary" role="alert">
-                Total a Pagar: $
-            </div>
-
         </div>
 
-        <!--Botones de BORRAR y de RESUMEN-->
-        <div id="separar" class="d-md-bloc centrado_perfecto">
-            <div class="d-grid col-md-6">
-                <button id="td4" type="button" class="btn btn-primary btn-lg">Borrar</button>
-            </div>
-            <div class="d-grid col-md-6">
-                <button id="td4" type="button" class="btn btn-primary btn-lg">Resumen</button>
-            </div>
-        </div>
-    </div>
+    </form>
+
+
+
+
+
+
+
 
 
     <div class="footer">
@@ -190,7 +207,8 @@
             </div>
         </div>
 
-
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+        <script src="./JS/script.js"></script>
 </body>
 
 </html>

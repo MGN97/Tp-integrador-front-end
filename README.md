@@ -3,7 +3,7 @@
 Breve explicación (en español):
 
 Este es un trabajo práctico integrador del curso de "Codo a Codo 4.0 - Gobierno de la Ciudad de Buenos Aires". En este proyecto se nos solicitó a los alumnos realizar una página web sobre un evento ficticio que realiza el Gobierno de la Ciudad de Buenos Aires. La web tiene su header, body y footer, creados con Bootstrap 5 y obteniendo estilos algunos de ellos desde CSS. Es una página web responsiva para dispositivos moviles, pc de escritorio, laptops y tablets.
-Algunos botones del menú se anclaron con secciones de la misma página principal, ya que allí es donde se debía apuntar, por otro lado hay algunos botones que no redireccionan o redireccionan a un mensaje de que aún se está trabajando en el sitio web. Esto se debe a que este trabajo práctico se divide en secciones. Aún no he obtenido las instrucciones para los demás documentos HTM, apenas los obtenga y los vaya configurando los iré subiendo en un nuevo repositorio.
+Algunos botones del menú se anclaron con secciones de la misma página principal, ya que allí es donde se debía apuntar, por otro lado hay algunos botones que no redireccionan o redireccionan a un mensaje de que aún se está trabajando en el sitio web. Esto se debe a que este trabajo práctico se divide en secciones. Aún no he obtenido las instrucciones para los demás documentos HTML, apenas los obtenga y los vaya configurando los iré subiendo en un nuevo repositorio.
 
 # Tp-integrador-front-end
 

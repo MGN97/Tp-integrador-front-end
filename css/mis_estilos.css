@@ -262,8 +262,13 @@ u {
     margin-top: 2%;
     text-align: center;
     gap: 1%;
-    margin-right: 23%;
-    margin-left: 23%;
+    margin-right: 16%;
+    margin-left: 16%;
+}
+
+.estirar {
+    margin-bottom: 15%;
+    margin-top: 15%;
 }
 
 #borde1 {
@@ -290,16 +295,26 @@ u {
     margin-top: -1%;
 }
 
-#margen1 {
-    margin-left: 1%;
+#input_correo {
+    margin-bottom: 2%;
 }
 
-#margen2 {
-    margin-left: 1%;
+#cantidad {
+    margin-left: 0.5%;
+}
+
+#categoria {
+    margin-right: 0%;
 }
 
 #separar {
     gap: 1%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+}
+
+#resumen {
+    padding-left: 1%;
 }
 
 
