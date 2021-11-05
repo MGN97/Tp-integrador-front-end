@@ -16,7 +16,7 @@
 
 <body>
     <nav id="mov-nav-cabezera" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div id="nav" class="container-fluid">
+        <!--<div id="nav" class="container-fluid">
             <a id="margen" class="navbar-brand" href="#">
                 <img img src="./img/codoacodo.png" alt="Logo" width="100" height="60">
             </a>
@@ -32,8 +32,27 @@
                     <a id="letras-menu-mouse" class="nav-link active" href="./index.html?#SerOrador">Conviertete en orador</a>
                     <a id="letras-comprar" class="nav-link active" href="./tickets.html">Comprar tickets</a>
                 </div>
+            </div>-->
+        <div id="nav" class="container-fluid">
+            <a class="navbar-brand margen" href="#">
+                <img img src="./img/codoacodo.png" alt="Logo" width="100" height="60">
+            </a>
+            <a id="logo-titulo" class="navbar-brand" href="./index.html">Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div id="mov-menu" class="navbar-nav">
+                    <a id="letras-menu-mouse" class="nav-link active" href="./index.html#conferencia">La conferencia</a>
+                    <a id="letras-menu-mouse" class="nav-link active" href="./index.html#oradores">Los oradores</a>
+                    <a id="letras-menu-mouse" class="nav-link active" href="./index.html#BA">El lugar y la fecha</a>
+                    <a id="letras-menu-mouse" class="nav-link active" href="./index.html#SerOrador">Conviertete en orador</a>
+                    <a id="letras-comprar" class="nav-link active" href="./tickets.html">Comprar tickets</a>
+                </div>
             </div>
         </div>
+        </div>
+
     </nav>
 
     <div class="card-group centrar">
@@ -83,7 +102,7 @@
 
     <form id="carrito">
         <div id="form" class="row abajo1">
-            <div class="col">
+            <div id="tamaño_responsivo" class="col">
                 <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
             </div>
             <div class="col abajo1">
@@ -118,8 +137,6 @@
                         <span>Total a Pagar: $ {{totalAPagar}}</span>
                     </div>
                 </div>
-
-
 
 
                 <!--Botones de BORRAR y de RESUMEN-->

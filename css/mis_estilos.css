@@ -42,7 +42,7 @@
 
 /*Le doy margen izquierdo a logo*/
 
-#margen {
+.margen {
     margin-left: 5%;
 }
 
@@ -328,7 +328,7 @@ u {
 /*MEDIA QUERY*/
 
 @media (max-width: 900px) {
-    #margen {
+    .margen {
         margin-left: -1%;
     }
     #mov-menu {
@@ -339,7 +339,7 @@ u {
         border-radius: inherit;
     }
     #t1 {
-        margin-lepxft: 5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
     #sub {
@@ -436,5 +436,17 @@ u {
     }
     #color02 {
         background: linear-gradient(to right, #1c3846, #1e4f6d);
+    }
+    /**********HTML tickets**********/
+    .centrar {
+        margin-left: 11%;
+    }
+    .abajo1 {
+        margin-bottom: 4%;
+    }
+    #separar {
+        gap: 3%;
+        padding-left: 0%;
+        padding-right: 1%;
     }
 }
